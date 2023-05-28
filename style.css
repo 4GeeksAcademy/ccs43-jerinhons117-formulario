@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(firefox.png), url(bubbles.png), linear-gradient(to right, rgb(7, 46, 81), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, left, right;
+    background: -moz-linear-gradient(to right, rgb(1, 42, 78), rgba(255, 255, 255, 0)), -webkit-gradient (to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), -ms-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+}
+
+input{
+    background: transparent;
+    background: rgba(0,0,0,0. 0.7);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(3, 8, 250);
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(40, 8, 219);
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+textarea{
+    background: transparent;
+    background: rgba(0,0,0,0. 0.7);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(3, 8, 250);
+
+}
+
+
+
+.container{
+    display: block;
+    margin: 8px auto;
+    padding: 0;
+    width: 80vw;
+    height: 98vh;
+    background-color: rgba(0,0,0,0.491);
+    border: solid 1px gray;
+    border-radius: 3px;
+
+}
+
+.container .box-header{
+    width: 100%;
+    height: 12vh;
+    margin-top: 0;
+    border-bottom: 1px solid rgb(142, 141, 141);
+}
+
+.container .box-header .tittle-form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub-tittle-box{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items:center ;
+    background-color: rgb(40, 8, 219);
+    border-radius: 10px;
+    border: 1px solid rgb(4, 2, 150);
+
+
+}
+
+.container .container-form{
+    width: 100%;
+    padding: 3%;
+    margin: 0;
+}
+
+.card-box h4{
+    padding: 10px 0;
+}
+
+
+
+
+.card-box{
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-box .input-card{
+    padding: 5px;
+    width: 30vw;
+    height: 5vh;
+    background: transparent;
+}
+
+.card-box .input-card1{
+    padding: 5px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.card-box .input-card2{
+    padding: 5px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.usuario-box{
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usuario-box .first-name input{
+    padding: 5px;
+    width: 37vw;
+    height: 5vh;
+
+}
+
+.usuario-box .last-name input{
+    padding: 5px;
+    width: 37vw;
+    height: 5vh;
+
+}
+
+.states-box{
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .states-box .pais input{
+    padding: 5px;
+    width: 37vw;
+    height: 5vh;
+
+}
+
+ .states-box .states input{
+    padding: 5px;
+    width: 18vw;
+    height: 5vh;
+
+}
+
+.states-box .postal input{
+    padding: 5px;
+    width: 18vw;
+    height: 5vh;
+
+}
+
+.coment{
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coment .imag h4{
+    margin-bottom: 20px;
+}
+
+.coment .imag .radius{
+    padding: 5px 5px;
+    background-color: rgb(40, 8, 219);
+    border-radius: 5px;
+    display: inline;
+}
+
+.coment .imag {
+    padding: 0;
+    width: 37vw;
+    height: 10vh;
+}
+
+
+.coment .message textarea{
+    padding: 5px;
+    width: 37vw;
+    height: 15vh;
+}
+
+.boton{
+    width: 100%;
+    margin-top: 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: end;
+    border-top: 1px solid rgb(142, 141, 141);
+
+}
+
+.boton .B1{
+    padding: 0px 10px;
+}
+
+.boton .B2{
+    padding: 0px 10px;
+}
+
+
+
+
